@@ -9,6 +9,6 @@
  */
 
 defined('MOODLE_INTERNAL')||die();
-$plugin->version = 2015071700;
+$plugin->version = 2015071702;
 $plugin->requires = 2013110400;
 $plugin->component = 'mod_appear';
