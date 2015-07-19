@@ -26,7 +26,7 @@
         <INDEX NAME="course" UNIQUE="false" FIELDS="course"/>
       </INDEXES>
     </TABLE>
-    <TABLE NAME="appear_group">
+    <TABLE NAME="appear_group" COMMENT="">
         <FIELDS>
             <FIELD NAME="id" SEQUENCE="true" TYPE="int" LENGTH="11" NOTNULL="false"/>
             <FIELD NAME="appear_id"  TYPE="int" LENGTH="11" NOTNULL="false"/>
@@ -35,6 +35,7 @@
             
         </FIELDS>
         <KEYS>
+            <KEY NAME="appear_group_pk" TYPE="primary" FIELDS="id"/>
         </KEYS>
     </TABLE>
   </TABLES>

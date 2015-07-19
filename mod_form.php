@@ -32,7 +32,7 @@ class mod_appear_mod_form extends moodleform_mod {
         $this->add_intro_editor($config->requiremodintro);
 
 
-
+       $mform->addElement('date_time_selector','starttime',get_string('strtime','mod_appear'));
 
         $this->standard_coursemodule_elements();
 

@@ -13,3 +13,4 @@ $string['modulename'] = 'Appear';
 $string['modulenameplural']= 'Appear';
 $string['appear:join'] = 'Appear';
 $string['pluginadministration'] = '';
+$string['strtime'] = 'Start Time';

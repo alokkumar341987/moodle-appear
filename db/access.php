@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Capability  information
+ * mod_appear Capability  information
  *
  * @package   mod_appaer
  * @copyright 2105 onwards Alok Kumar Rai alokr.mail@gmail.com
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
+defined('MOODLE_INTERNAL')|| die();
 $capabilities = array(
   'mod/appear:addinstance' => array(
         'riskbitmask' => RISK_XSS,

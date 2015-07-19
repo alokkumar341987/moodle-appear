@@ -9,7 +9,7 @@
  */
 
 defined('MOODLE_INTERNAL')||die();
-$plugin->version = 2015071702;
+$plugin->version = 2015071703;
 $plugin->requires = 2013110400;
 $plugin->component = 'mod_appear';
 $plugin->cron =   120;
